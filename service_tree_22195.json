@@ -1,0 +1,371 @@
+{
+ "meta": {
+  "fetched_at": "2026-09-17T12:53:27",
+  "env": "QA",
+  "base_url": "https://api.itsm-qa.mos.ru/v1",
+  "web_base": "https://community.itsm-qa.mos.ru",
+  "service_id": "22195"
+ },
+ "service": {
+  "attachments": [],
+  "availability_manager": null,
+  "capacity_manager": null,
+  "change_manager": null,
+  "continuity_manager": null,
+  "created_at": "2026-05-26T06:16:20+03:00",
+  "custom_fields": null,
+  "description": null,
+  "disabled": false,
+  "first_line_team": {
+   "id": 11019,
+   "name": "Бухгалтерия и кадры",
+   "nodeID": "aXRzbS1xYS5tb3MucnUvVGVhbS8xMTAxOQ"
+  },
+  "id": 22195,
+  "impact": null,
+  "keywords": null,
+  "knowledge_manager": null,
+  "name": "АТ тест вапро. Бухгалтерия и кадры",
+  "picture_uri": null,
+  "problem_manager": null,
+  "provider": {
+   "id": 79469,
+   "name": ". ИНН 5008045362",
+   "account": {
+    "id": "moscow",
+    "name": "Каталог услуг Правительства Москвы"
+   },
+   "nodeID": "aXRzbS1xYS5tb3MucnUvT3JnYW5pemF0aW9uLzc5NDY5"
+  },
+  "release_manager": null,
+  "service_category": {
+   "id": 2106,
+   "name": "АТ тест вапро",
+   "localized_name": "АТ тест вапро",
+   "nodeID": "aXRzbS1xYS5tb3MucnUvU2VydmljZUNhdGVnb3J5LzIxMDY"
+  },
+  "service_owner": {
+   "id": 1245317,
+   "name": "Пользователь Jenkins",
+   "account": {
+    "id": "moscow",
+    "name": "Каталог услуг Правительства Москвы"
+   },
+   "nodeID": "aXRzbS1xYS5tb3MucnUvUGVyc29uLzEyNDUzMTc"
+  },
+  "source": "axios/1.15.0",
+  "sourceID": null,
+  "support_team": {
+   "id": 11019,
+   "name": "Бухгалтерия и кадры",
+   "nodeID": "aXRzbS1xYS5tb3MucnUvVGVhbS8xMTAxOQ"
+  },
+  "survey": null,
+  "ui_extension": null,
+  "updated_at": "2026-05-26T06:16:23+03:00",
+  "localized_description": null,
+  "localized_keywords": null,
+  "localized_name": "АТ тест вапро. Бухгалтерия и кадры",
+  "nodeID": "aXRzbS1xYS5tb3MucnUvU2VydmljZS8yMjE5NQ"
+ },
+ "service_instances": [
+  {
+   "id": 45770,
+   "sourceID": null,
+   "name": "АТ тест вапро. Бухгалтерия и кадры",
+   "status": "in_production",
+   "service": {
+    "id": 22195,
+    "name": "АТ тест вапро. Бухгалтерия и кадры",
+    "localized_name": "АТ тест вапро. Бухгалтерия и кадры",
+    "nodeID": "aXRzbS1xYS5tb3MucnUvU2VydmljZS8yMjE5NQ",
+    "provider": {
+     "id": 79469,
+     "name": ". ИНН 5008045362",
+     "account": {
+      "id": "moscow",
+      "name": "Каталог услуг Правительства Москвы"
+     },
+     "nodeID": "aXRzbS1xYS5tb3MucnUvT3JnYW5pemF0aW9uLzc5NDY5"
+    }
+   },
+   "support_team": null,
+   "created_at": "2026-05-26T06:16:21+03:00",
+   "updated_at": "2026-05-26T06:16:21+03:00",
+   "localized_name": "АТ тест вапро. Бухгалтерия и кадры",
+   "nodeID": "aXRzbS1xYS5tb3MucnUvU2VydmljZUluc3RhbmNlLzQ1Nzcw",
+   "slas": [
+    88426
+   ]
+  }
+ ],
+ "service_offerings": [
+  {
+   "attachments": [],
+   "availability": null,
+   "charge_type_case": null,
+   "charge_type_high": null,
+   "charge_type_low": null,
+   "charge_type_medium": null,
+   "charge_type_rfc": null,
+   "charge_type_rfi": null,
+   "charge_type_top": null,
+   "charges": null,
+   "continuity": null,
+   "created_at": "2026-05-26T06:16:21+03:00",
+   "default_effort_class": null,
+   "id": 31632,
+   "limitations": null,
+   "maximum_risk_of_data_loss": null,
+   "name": "АТ тест вапро. Бухгалтерия и кадры",
+   "offline_backup_schedule": null,
+   "penalties": null,
+   "performance": null,
+   "prerequisites": null,
+   "rate_case": null,
+   "rate_case_currency": null,
+   "rate_high": null,
+   "rate_high_currency": null,
+   "rate_low": null,
+   "rate_low_currency": null,
+   "rate_medium": null,
+   "rate_medium_currency": null,
+   "rate_rfc": null,
+   "rate_rfc_currency": null,
+   "rate_rfi": null,
+   "rate_rfi_currency": null,
+   "rate_top": null,
+   "rate_top_currency": null,
+   "recovery_point_objective": null,
+   "recovery_time_objective": null,
+   "reliability": null,
+   "report_frequency": "no_commitment",
+   "resolution_target_case": null,
+   "resolution_target_case_in_days": null,
+   "resolution_target_high": null,
+   "resolution_target_high_in_days": null,
+   "resolution_target_low": null,
+   "resolution_target_low_in_days": null,
+   "resolution_target_medium": null,
+   "resolution_target_medium_in_days": null,
+   "resolution_target_notification_scheme_high": null,
+   "resolution_target_notification_scheme_low": null,
+   "resolution_target_notification_scheme_medium": null,
+   "resolution_target_notification_scheme_top": null,
+   "resolution_target_rfc": null,
+   "resolution_target_rfc_in_days": null,
+   "resolution_target_rfi": null,
+   "resolution_target_rfi_in_days": null,
+   "resolution_target_top": null,
+   "resolution_target_top_in_days": null,
+   "resolutions_within_target": null,
+   "response_target_case": null,
+   "response_target_case_in_days": null,
+   "response_target_high": null,
+   "response_target_high_in_days": null,
+   "response_target_low": null,
+   "response_target_low_in_days": null,
+   "response_target_medium": null,
+   "response_target_medium_in_days": null,
+   "response_target_notification_scheme_high": null,
+   "response_target_notification_scheme_low": null,
+   "response_target_notification_scheme_medium": null,
+   "response_target_notification_scheme_top": null,
+   "response_target_rfc": null,
+   "response_target_rfc_in_days": null,
+   "response_target_rfi": null,
+   "response_target_rfi_in_days": null,
+   "response_target_top": null,
+   "response_target_top_in_days": null,
+   "responses_within_target": null,
+   "restore_duration": null,
+   "review_frequency": "no_commitment",
+   "service": {
+    "id": 22195,
+    "name": "АТ тест вапро. Бухгалтерия и кадры",
+    "localized_name": "АТ тест вапро. Бухгалтерия и кадры",
+    "nodeID": "aXRzbS1xYS5tb3MucnUvU2VydmljZS8yMjE5NQ",
+    "provider": {
+     "id": 79469,
+     "name": ". ИНН 5008045362",
+     "account": {
+      "id": "moscow",
+      "name": "Каталог услуг Правительства Москвы"
+     },
+     "nodeID": "aXRzbS1xYS5tb3MucnUvT3JnYW5pemF0aW9uLzc5NDY5"
+    }
+   },
+   "service_hours": {
+    "id": 2967,
+    "name": "Рабочие дни 9-18",
+    "nodeID": "aXRzbS1xYS5tb3MucnUvQ2FsZW5kYXIvMjk2Nw"
+   },
+   "sla_notification_scheme_high": null,
+   "sla_notification_scheme_low": null,
+   "sla_notification_scheme_medium": null,
+   "sla_notification_scheme_top": null,
+   "source": "axios/1.15.0",
+   "sourceID": null,
+   "status": "available",
+   "summary": null,
+   "support_hours_case": null,
+   "support_hours_high": null,
+   "support_hours_low": null,
+   "support_hours_medium": null,
+   "support_hours_rfc": null,
+   "support_hours_rfi": null,
+   "support_hours_top": null,
+   "termination": null,
+   "time_zone": "Moscow",
+   "updated_at": "2026-05-26T06:16:21+03:00",
+   "waiting_for_customer_follow_up": null,
+   "nodeID": "aXRzbS1xYS5tb3MucnUvU2VydmljZU9mZmVyaW5nLzMxNjMy"
+  }
+ ],
+ "slas": [
+  {
+   "activityID_case": null,
+   "activityID_high": null,
+   "activityID_low": null,
+   "activityID_medium": null,
+   "activityID_rfc": null,
+   "activityID_rfi": null,
+   "activityID_top": null,
+   "agreementID": null,
+   "attachments": [],
+   "coverage": "organizations_and_descendants",
+   "created_at": "2026-05-26T06:16:22+03:00",
+   "customer": {
+    "id": 83299,
+    "name": ". ИНН 5030078081",
+    "account": {
+     "id": "moscow",
+     "name": "Каталог услуг Правительства Москвы"
+    },
+    "nodeID": "aXRzbS1xYS5tb3MucnUvT3JnYW5pemF0aW9uLzgzMjk5"
+   },
+   "customer_account": {
+    "id": "community",
+    "name": "Сообщество МосИТСМ"
+   },
+   "customer_rep": {
+    "id": 1245317,
+    "name": "Пользователь Jenkins",
+    "account": {
+     "id": "moscow",
+     "name": "Каталог услуг Правительства Москвы"
+    },
+    "nodeID": "aXRzbS1xYS5tb3MucnUvUGVyc29uLzEyNDUzMTc"
+   },
+   "expiry_date": null,
+   "id": 88426,
+   "name": "АТ тест вапро. Бухгалтерия и кадры (организации и нижестоящие)",
+   "notice_date": null,
+   "remarks": null,
+   "service_instance": {
+    "id": 45770,
+    "name": "АТ тест вапро. Бухгалтерия и кадры",
+    "localized_name": "АТ тест вапро. Бухгалтерия и кадры",
+    "nodeID": "aXRzbS1xYS5tb3MucnUvU2VydmljZUluc3RhbmNlLzQ1Nzcw"
+   },
+   "service_level_manager": {
+    "id": 1245317,
+    "name": "Пользователь Jenkins",
+    "account": {
+     "id": "moscow",
+     "name": "Каталог услуг Правительства Москвы"
+    },
+    "nodeID": "aXRzbS1xYS5tb3MucnUvUGVyc29uLzEyNDUzMTc"
+   },
+   "service_offering": {
+    "id": 31632,
+    "name": "АТ тест вапро. Бухгалтерия и кадры",
+    "service": {
+     "id": 22195,
+     "name": "АТ тест вапро. Бухгалтерия и кадры",
+     "localized_name": "АТ тест вапро. Бухгалтерия и кадры",
+     "nodeID": "aXRzbS1xYS5tb3MucnUvU2VydmljZS8yMjE5NQ",
+     "provider": {
+      "id": 79469,
+      "name": ". ИНН 5008045362",
+      "account": {
+       "id": "moscow",
+       "name": "Каталог услуг Правительства Москвы"
+      },
+      "nodeID": "aXRzbS1xYS5tb3MucnUvT3JnYW5pemF0aW9uLzc5NDY5"
+     }
+    },
+    "nodeID": "aXRzbS1xYS5tb3MucnUvU2VydmljZU9mZmVyaW5nLzMxNjMy"
+   },
+   "source": "axios/1.15.0",
+   "sourceID": null,
+   "start_date": null,
+   "status": "being_prepared",
+   "updated_at": "2026-05-26T06:16:22+03:00",
+   "use_knowledge_from_service_provider": false,
+   "nodeID": "aXRzbS1xYS5tb3MucnUvU2xhLzg4NDI2"
+  }
+ ],
+ "request_templates": [
+  {
+   "asset_selection": false,
+   "assign_after_workflow_completion": false,
+   "assign_to_self": false,
+   "attachments": [],
+   "category": "case",
+   "ci": null,
+   "completion_reason": null,
+   "copy_subject_to_requests": true,
+   "created_at": "2026-09-14T11:59:32+03:00",
+   "desired_completion": null,
+   "disabled": false,
+   "effort_class": null,
+   "end_users": true,
+   "id": 73517,
+   "impact": null,
+   "instructions": null,
+   "keywords": null,
+   "member": null,
+   "note": null,
+   "planned_effort": null,
+   "registration_hints": null,
+   "resolution_target": null,
+   "service": {
+    "id": 22195,
+    "name": "АТ тест вапро. Бухгалтерия и кадры",
+    "localized_name": "АТ тест вапро. Бухгалтерия и кадры",
+    "nodeID": "aXRzbS1xYS5tb3MucnUvU2VydmljZS8yMjE5NQ",
+    "provider": {
+     "id": 79469,
+     "name": ". ИНН 5008045362",
+     "account": {
+      "id": "moscow",
+      "name": "Каталог услуг Правительства Москвы"
+     },
+     "nodeID": "aXRzbS1xYS5tb3MucnUvT3JnYW5pemF0aW9uLzc5NDY5"
+    }
+   },
+   "source": "4me",
+   "sourceID": null,
+   "specialists": true,
+   "status": null,
+   "subject": "1 шаблон запроса",
+   "supplier": null,
+   "support_hours": null,
+   "team": null,
+   "time_zone": null,
+   "times_applied": 0,
+   "ui_extension": null,
+   "updated_at": "2026-09-14T21:31:18+03:00",
+   "urgent": false,
+   "workflow_manager": null,
+   "workflow_template": null,
+   "localized_instructions": null,
+   "localized_keywords": null,
+   "localized_note": null,
+   "localized_registration_hints": null,
+   "localized_subject": "1 шаблон запроса",
+   "nodeID": "aXRzbS1xYS5tb3MucnUvUmVxdWVzdFRlbXBsYXRlLzczNTE3"
+  }
+ ]
+}
