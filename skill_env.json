@@ -3,7 +3,7 @@
   "MOSITSM_API_URL_QA": "https://api.itsm-qa.mos.ru/v1",
   "MOSITSM_ACCOUNT": "community",
   "MOSITSM_STAGE": "QA",
-  "MOSITSM_PERS_TOKEN_QA": "m4JZtMv0iHLxblttqr1dtfSQZEEyagUZMS7A528zStdAxOEUreBzOVrpLX30iqr7j5iakIMhwUu0mcNHUlL8KiRe0yv3llWm9feEN1vPtiQCki6O",
+  "MOSITSM_PERS_TOKEN_QA": "***",
   "MOSITSM_PERS_TOKEN_PROD": "",
   "MOSITSM_API_URL_SERVICES": "{{MOSITSM_API_URL}}/services",
   "MOSITSM_API_URL_SERVICE_INSTANCES": "{{MOSITSM_API_URL}}/service_instances",
